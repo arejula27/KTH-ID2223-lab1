@@ -9,12 +9,6 @@
       "source $VENV_DIR/bin/activate",
     ],
     "scripts": {
-      "install": [
-        "pip install -r requirements.txt",
-      ],
-      "install-dev": [
-        "pip install -r requirements-dev.txt",
-      ],
       "test": [
         "echo \"Error: no test specified\" && exit 1",
       ],
