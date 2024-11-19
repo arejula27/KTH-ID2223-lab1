@@ -1,16 +1,12 @@
-# mlfs-book
-O'Reilly book - Building Machine Learning Systems with a feature store: batch, real-time, and LLMs
+# KTH ID2223 Lab 1
 
+This repository contains the code and automation for the first assignment of the ID2223 course.
 
-## ML System Examples
+The work is located in the `notebooks/ch3` folder. This assignment is divided into four files:
 
+- **`1_air_quality_feature_backfill`**: Sets up the schema for the feature store on Hopsworks and performs the initial population.
+- **`2_air_quality_feature_pipeline`**: Implements a pipeline to ingest data from external resources and update the feature store.
+- **`3_air_quality_training_pipeline`**: Handles model training and verification.
+- **`4_air_quality_batch_inference`**: Performs batch inference for the next 10 days.
 
-[Dashboards for Example ML Systems](https://featurestorebook.github.io/mlfs-book/)
-
-## Course Comparison
-
-| Course                         | MLOps | LLLMs             | Feature/Training/Inference | Working AI Systems | Focus |
-|--------------------------------|-------|----------------------------|--------------------|------------------|
-| Building AI Systems (O'Reilly) | Yes   | Fine-Tuning & RAG | Yes                        | High               | Project-based, Software Engineering, Fundamentals    |
-| [Made With ML](https://madewithml.com/)                   | No          | Yes   | No                         | No                 | Software Engineering, Model Training   |
-| [7 Steps MLOps](https://www.pauliusztin.me/courses/the-full-stack-7-steps-mlops-framework)            | Yes   | Separate Course    | Yes                        | Low                | Learning Tools and Project    |
+You can view the results on the [dashboard](https://arejula27.github.io/KTH-ID2223-lab1/air-quality/).
