@@ -10,3 +10,6 @@ The work is located in the `notebooks/ch3` folder. This assignment is divided in
 - **`4_air_quality_batch_inference`**: Performs batch inference for the next 10 days.
 
 You can view the results on the [dashboard](https://arejula27.github.io/KTH-ID2223-lab1/air-quality/).
+
+
+We also did the sixth task, it involved changing all the files, we redefine the schema for the 'feature group' adding a new field. After that we created a new model using the newer data. On the inference file we had to modify tha prediction system, because the new predictions has a dependency on the previous day.
